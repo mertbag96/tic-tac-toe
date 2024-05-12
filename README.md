@@ -35,5 +35,3 @@ The rules of Tic Tac Toe are simple:
 3. Click on an empty cell to place your symbol.
 4. Alternate turns with your opponent until one player wins or the game ends in a draw.
 5. Enjoy and have fun!
-
-![alt text](https://github.com/mertbag96/tic-tac-toe/blob/main/app/assets/images/project.JPG)
