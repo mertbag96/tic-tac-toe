@@ -135,7 +135,32 @@ ul, ol {
 .landing-page-content .how-to-play ol li p {
   text-align: center;
 }
-.landing-page-content .how-to-play .go-back {
+.landing-page-content .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing-page-content .about .about-title {
+  margin-bottom: 1rem;
+  font-family: "Ubuntu Sans Mono Bold";
+  color: #19647E;
+}
+.landing-page-content .about .about-text {
+  margin-bottom: 1.25rem;
+  width: 75%;
+  text-align: center;
+}
+.landing-page-content .about .about-rule-title {
+  margin-bottom: 1rem;
+  font-family: "Ubuntu Sans Mono Bold";
+  color: #19647E;
+}
+.landing-page-content .about .about-rule {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.landing-page-content .go-back {
   -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
@@ -149,7 +174,7 @@ ul, ol {
   color: #19647E;
   text-align: center;
 }
-.landing-page-content .how-to-play .go-back:hover {
+.landing-page-content .go-back:hover {
   background-color: #F4D35E;
   transition: 0.5s ease;
   letter-spacing: 0.1rem;
