@@ -163,6 +163,17 @@ ul, ol {
       text-align: center;
     }
   }
+  .credits-title {
+    margin-bottom: 2rem;
+    font-family: $font600;
+    color: $blue;
+  }
+  .credits {
+    margin-bottom: 4rem;
+    a {
+      text-decoration: underline $i;
+    }
+  }
   .go-back {
     -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
