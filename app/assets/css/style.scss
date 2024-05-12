@@ -123,6 +123,43 @@ ul, ol {
       }
     }
   }
+  .how-to-play {
+    @include d-flex-col-centered();
+    .how-to-play-title {
+      margin-bottom: 1rem;
+      font-family: $font600;
+      color: $blue;
+    }
+    ol {
+      margin-bottom: 1rem;
+      li {
+        font-size: 1rem;
+        color: $dark;
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .go-back {
+      -webkit-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+      -o-box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.5);
+      background-color: $yellow;
+      border-radius: 1rem;
+      padding: .5rem 1.5rem;
+      width: 160px;
+      font-family: $font600;
+      font-size: 1rem;
+      color: $blue;
+      text-align: center;
+      &:hover {
+        background-color: $yellow;
+        transition: .5s ease;
+        letter-spacing: .1rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 575px) {
